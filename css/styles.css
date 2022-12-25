@@ -1,0 +1,318 @@
+body {
+    font-family: "roboto", sans-serif;
+    letter-spacing: 0.02em;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    background: #FFFFFF;
+}
+
+.list{
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+.site-header {
+width: 1440px;
+height: 72px;
+background: #FFFFFF;
+}
+
+
+.header-navigation {
+}
+.header-logo {
+}
+.header-list {
+}
+.list {
+}
+.header-item {
+}
+.header-link {
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
+}
+.header-link:hover,:focus {
+
+color: #4D5AE5;
+}
+
+
+
+
+.link {
+}
+.header-sait {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+
+.header-tel {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+
+.hero {
+width: 1440px;
+height: 603px;
+left: 0px;
+top: 72px;
+background: #2E2F42;
+}
+
+
+.hero-page {
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #FFFFFF;
+    
+
+}
+.work {
+}
+.work-list {
+}
+.work-item {
+}
+.work-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+
+.work-after-title {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+
+.tasks {
+}
+
+
+.tasks-title {
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.tasks-list {
+}
+.tasks-item {
+}
+.team {
+}
+
+
+.team-title {
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.team-list {
+}
+.team-item {
+}
+.team-foto {
+}
+
+
+.team-member {
+font-weight: 600;
+font-size: 16px;
+line-height: 1.18;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+ccolor: #2E2F42;
+}
+
+.team-after-title {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+.footer {
+width: 1440px;
+height: 310px;
+left: 0px;
+top: 2283px;
+background: #2E2F42;
+}
+
+
+.footer-logo {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+
+.footer-title {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+
+
+
+
+
+
+/* --------PORTFOLIO--------- */
+
+.portfolio-body {
+}
+.portfolio {
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+}
+.portfolio-nav {
+}
+.portfolio-logo {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+}
+.header-portfolio-list {
+}
+
+
+.header-portfolio-link {
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
+}
+.portfolio-hero {
+}
+.portfolio-hero-list {
+}
+.portfolio-hero-btn {
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+cursor: pointer;
+color: #4D5AE5;
+
+}
+.portfolio-hero-foto {
+}
+.portfolio-hero-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+
+.portfolio-hero-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+
+.portfolio-footer {
+width: 1440px;
+height: 310px;
+left: 0px;
+top: 1764px;
+background: #2E2F42;
+}
+
+.portfolio-footer-link {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
+
+
+.portfolio-footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
