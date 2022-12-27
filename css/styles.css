@@ -7,7 +7,7 @@ body {
     background: #FFFFFF;
 }
 
-.list{
+.list {
     list-style: none;
 }
 
@@ -29,6 +29,8 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+list-style: none;
+text-decoration: none;
 color: #4D5AE5;
 
 }
@@ -231,6 +233,8 @@ background: #FFFFFF;
 }
 .portfolio-nav {
 }
+
+
 .portfolio-logo {
     font-weight: 800;
     font-size: 18px;
@@ -239,14 +243,17 @@ background: #FFFFFF;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
     color: #4D5AE5;
     
 }
-.header-portfolio-list {
+.header-portfolio-link {
+
 }
 
 
-.portfolio-mail link {
+.portfolio-mail {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -257,7 +264,7 @@ background: #FFFFFF;
     
 }
 
-.portfolio-tel link {
+.portfolio-tel {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -267,6 +274,7 @@ background: #FFFFFF;
     color: #434455;
     
 }
+
 
 
 .header-portfolio-link {
@@ -277,9 +285,12 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 
 }
-.portfolio-hero {
+.portfolio-hero { 
+    
 }
 .portfolio-hero-list {
+    text-decoration: none;
+    list-style: none;
 }
 .portfolio-hero-btn {
 font-weight: 600;
@@ -294,12 +305,15 @@ color: #4D5AE5;
 
 }
 .portfolio-hero-foto {
+    
 }
 .portfolio-hero-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+list-style: none;
+text-decoration: none;
 color: #2E2F42;
 }
 
@@ -309,13 +323,13 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+list-style: none;
+text-decoration: none;
 color: #434455;
 }
 
 
 .portfolio-footer {
-width: 1440px;
-height: 310px;
 left: 0px;
 top: 1764px;
 background: #2E2F42;
@@ -328,8 +342,10 @@ line-height: 1.16;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
+list-style: none;
+text-decoration: none;
 text-transform: uppercase;
-color: #F4F4FD;
+color: #4D5AE5
 }
 
 
