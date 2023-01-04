@@ -9,8 +9,10 @@ body {
 }
 
 button {
+    font-family: 'Roboto';
     border: none;
     background-color: #F4F4FD;
+    padding: 12px 24px;
     cursor: pointer;
 }
 
@@ -320,23 +322,17 @@ color: #2E2F42;
 
 }
 .portfolio-hero-btn {
-    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px 24px;
     width: 116px;
     height: 48px;
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
     border-radius: 4px;
     flex: none;
     order: 1;
     flex-grow: 0;
-    display: inline;
 }
-
 
 .portfolio-hero-foto {
     list-style: none;
@@ -352,10 +348,6 @@ text-decoration: none;
 color: #2E2F42;
 }
 
-.portfolio-hero-title:hover {
-    color: #4D5AE5;
-}
-
 .portfolio-hero-text {
 font-weight: 400;
 font-size: 16px;
@@ -364,10 +356,6 @@ letter-spacing: 0.02em;
 list-style: none;
 text-decoration: none;
 color: #434455;
-}
-
-.portfolio-hero-text:hover {
-    color: #4D5AE5;
 }
 
 .portfolio-footer {
