@@ -282,20 +282,16 @@ flex-grow: 0;
 
 
 .tasks-title {
-   
-   
-    height: 40px;
-    left: 559px;
-    top: 1016px;
 
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
-letter-spacing: 0;em;
+letter-spacing: 0;em:
 text-transform: capitalize;
 color: #2E2F42;
 }
+
 .tasks-list {
 display: flex;
 left: 156px;
@@ -438,13 +434,7 @@ color: #2E2F42;
 .portfolio-hero { 
     
 }
-.portfolio-hero-top {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    padding-top: 96px;
-    padding-bottom: 75px;
-}
+
 .portfolio-hero-btn {
     display: flex;
     flex-direction: row;
@@ -469,10 +459,12 @@ cursor: pointer;
 
 
 .portfolio-hero-list {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-left: 156px;
+    padding-top: 80px;
+    padding-bottom: 55px;
 }
 
 
