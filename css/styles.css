@@ -72,6 +72,9 @@ p {
 .site-header {
 background: #FFFFFF;
 padding: 50px 0;
+box-sizing: border-box;
+background: #FFFFFF;
+border-bottom: 1px solid #E7E9FC;
 }
 
 .web {
@@ -491,7 +494,7 @@ cursor: pointer;
 }
 
 
-.portfolio-hero-list {
+.portfolio-btn-list {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -501,10 +504,21 @@ cursor: pointer;
 }
 
 
+.portfolio-hero-list {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 80px;
+    padding-bottom: 55px;
+
+}
+
+
 .portfolio-hero-foto {
     list-style: none;
     text-decoration: none;
-    flex-basis: calc(100% / 3 - 20px);
+    flex-basis: calc(100% / 3 - 48px);
     margin: 0;
     padding: 0;
 }
@@ -548,7 +562,16 @@ color: #4D5AE5
 }
 
 .portfolio-hero-link {
-    margin: 0;
+margin: 0;
+box-sizing: border-box;
+
+width: 360px;
+height: 420px;
+left: 156px;
+top: 288px;
+background: #FFFFFF;
+border: 1px solid #E7E9FC;
+
 }
 
 
