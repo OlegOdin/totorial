@@ -49,6 +49,18 @@ img {
     width: auto;
 }
 
+h1,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+
 li {
     margin: 0;
 }
@@ -71,7 +83,7 @@ p {
 
 .site-header {
 background: #FFFFFF;
-padding: 50px 0;
+padding: 24px 0;
 box-sizing: border-box;
 background: #FFFFFF;
 border-bottom: 1px solid #E7E9FC;
@@ -201,6 +213,8 @@ margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
+margin: 0 auto;
+padding: 0 15px;
 }
 
 .hero {
@@ -224,8 +238,19 @@ margin: auto;
     margin-bottom: 48px;
 }
 
+
+
 .container {
-    text-align: center;
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
+
+}
+
+.card-text {
+border: 1px solid #E7E9FC;
+border-top: none;
+padding: 32px 32px;
 }
 
 .hero-btn {
@@ -280,7 +305,7 @@ max-width: 1128px;
 }
 
 .work-title {
-font-family: "Roboto"; Sans-serif;
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -499,8 +524,8 @@ cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-top: 80px;
-    padding-bottom: 55px;
+    padding-top: 96px;
+    padding-bottom: 35px;
 }
 
 
@@ -509,8 +534,8 @@ cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-top: 80px;
-    padding-bottom: 55px;
+    padding-top: 35px;
+    padding-bottom: 120px;
 
 }
 
@@ -564,31 +589,12 @@ color: #4D5AE5
 .portfolio-hero-link {
 margin: 0;
 box-sizing: border-box;
-
 width: 360px;
 height: 420px;
 left: 156px;
 top: 288px;
 background: #FFFFFF;
 border: 1px solid #E7E9FC;
-
 }
 
-
-
-.secret-name { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; border: 0; clip: rect(0 0 0 0); }"
-
-h1,
-h2,
-
-
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-ul {
-margin-top: 0;
-margin-bottom: 0;
-padding-left: 0;
-}
+.secret-name { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; border: 0; clip: rect(0 0 0 0); }
