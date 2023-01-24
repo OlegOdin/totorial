@@ -127,7 +127,7 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #F4F4FD;
-padding-top: 100px;
+
 }
 
 .web-footer {
@@ -141,8 +141,7 @@ padding-top: 100px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    padding-top: 100px;
-    padding-left: 155px;
+    
 }
 
 .header-link {
@@ -414,7 +413,7 @@ color: #434455;
 }
 .footer {
 background: #2E2F42;
-height: 310px;
+
 left: 0px;
 top: 2280px;
 }
@@ -429,8 +428,7 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-width: 71px;
-height: 22px;
+
 
 }
 
@@ -441,16 +439,16 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
-position: absolute;
 width: 264px;
-height: 72px;
-left: 156px;
+
 }
 
 
-
-
-
+.container-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
 
 
 /* --------PORTFOLIO--------- */
@@ -469,14 +467,13 @@ background: #FFFFFF;
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;    
-    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     list-style: none;
     text-decoration: none;
     color: #4D5AE5;
-    
+    display: block;
 }
 .header-portfolio-link {
 
@@ -594,7 +591,6 @@ height: 420px;
 left: 156px;
 top: 288px;
 background: #FFFFFF;
-border: 1px solid #E7E9FC;
 }
 
 .secret-name { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; border: 0; clip: rect(0 0 0 0); }
